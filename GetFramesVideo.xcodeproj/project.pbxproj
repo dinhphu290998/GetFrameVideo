@@ -12,6 +12,8 @@
 		93F14C7C2309A505006D35CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F14C7A2309A505006D35CD /* Main.storyboard */; };
 		93F14C7E2309A507006D35CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F14C7D2309A507006D35CD /* Assets.xcassets */; };
 		93F14C812309A507006D35CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F14C7F2309A507006D35CD /* LaunchScreen.storyboard */; };
+		93F14C892309A604006D35CD /* jumani.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93F14C882309A5D5006D35CD /* jumani.mp4 */; };
+		93F14C8B2309A7F6006D35CD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F14C8A2309A7F6006D35CD /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		93F14C7D2309A507006D35CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F14C802309A507006D35CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93F14C822309A507006D35CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F14C882309A5D5006D35CD /* jumani.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = jumani.mp4; sourceTree = "<group>"; };
+		93F14C8A2309A7F6006D35CD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				93F14C762309A505006D35CD /* AppDelegate.swift */,
 				93F14C782309A505006D35CD /* ViewController.swift */,
+				93F14C882309A5D5006D35CD /* jumani.mp4 */,
 				93F14C7A2309A505006D35CD /* Main.storyboard */,
 				93F14C7D2309A507006D35CD /* Assets.xcassets */,
 				93F14C7F2309A507006D35CD /* LaunchScreen.storyboard */,
 				93F14C822309A507006D35CD /* Info.plist */,
+				93F14C8A2309A7F6006D35CD /* TableViewCell.swift */,
 			);
 			path = GetFramesVideo;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F14C892309A604006D35CD /* jumani.mp4 in Resources */,
 				93F14C812309A507006D35CD /* LaunchScreen.storyboard in Resources */,
 				93F14C7E2309A507006D35CD /* Assets.xcassets in Resources */,
 				93F14C7C2309A505006D35CD /* Main.storyboard in Resources */,
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F14C8B2309A7F6006D35CD /* TableViewCell.swift in Sources */,
 				93F14C792309A505006D35CD /* ViewController.swift in Sources */,
 				93F14C772309A505006D35CD /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6K5R838AQ;
 				INFOPLIST_FILE = GetFramesVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6K5R838AQ;
 				INFOPLIST_FILE = GetFramesVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
